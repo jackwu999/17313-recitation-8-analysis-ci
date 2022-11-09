@@ -48,5 +48,5 @@ jobs:
         run: |
           cd app
       - name: report test coverage
-        - run: |
+        run: |
           pipenv run pytest --cov=app
